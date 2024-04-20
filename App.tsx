@@ -1,11 +1,15 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
+import Cards from './Components/Card';
+import AddPdfs from './Components/AddPdf';
+import Nav from './Components/Nav';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
+      <Cards/>
+      <AddPdfs/>
+      <Nav/>
     </View>
   );
 }
